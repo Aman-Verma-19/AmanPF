@@ -20,6 +20,20 @@
     --text-color: rgb(255, 255, 255);
 
 }
+html::-webkit-scrollbar{
+    width: 0.5rem;
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: var(--main-head-color);
+    border-radius: 10px;
+    
+}
+/* selection */
+::selection{
+    background-color: rgb(17, 17, 17);
+    color:var(--main-head-color);
+}
 
 body {
 
